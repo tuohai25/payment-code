@@ -3,12 +3,12 @@
 const basic = { // 基础设置
     favicon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👻</text></svg>', // 页面图标
     title: '(～￣▽￣)～', // 页面标题
-    avatar: '@z0z0r4', // 头像 URL，也可用 QQ 号 (e.g. 10000) 或 Github 用户名 (e.g. @alex3236)
-    name: 'z0z0r4', // 头像下的昵称
-    sign: '请我喝杯橙汁吗？', // 个性签名或提示文字，可使用 HTML 格式
-    user_page: 'https://github.com/z0z0r4', // 点击头像或名字时跳转的链接，留空或删除则不跳转
-    footer: '<a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2022001701号-2</a>', // 页脚文字，可使用 HTML 格式
-    uri_redirect: false // 若收款码 URL 是网址，是否直接跳转而不显示二维码
+    avatar: '@lyjdht', // 头像 URL，也可用 QQ 号 (e.g. 10000) 或 Github 用户名 (e.g. @alex3236)
+    name: 'lyjdht', // 头像下的昵称
+    sign: '<del>我很可爱，请给我钱</del>', // 个性签名或提示文字，可使用 HTML 格式
+    user_page: 'https://github.com/lyjdht', // 点击头像或名字时跳转的链接，留空或删除则不跳转
+    footer: '再玩十年也不会腻！', // 页脚文字，可使用 HTML 格式
+    uri_redirect: true // 若收款码 URL 是网址，是否直接跳转而不显示二维码
 }
 
 const theme = { // 主题设置
@@ -27,16 +27,16 @@ const urls = [ // 付款方式列表
     {
         name: '支付宝', // 名称
         ua: 'Alipay', // User-Agent 正则表达式
-        addr: 'https://qr.alipay.com/fkx10530cfnrt921okany1b' // 收款码 URL
+        addr: 'https://cdn.staticaly.com/gh/lyjdht/image@master/20221010/zfb.3oly0y7tvjpc.webp' // 收款码 URL
     },
     {
         name: '微信',
         ua: 'MicroMessenger\/',
-        addr: 'wxp://f2f0YNuKvY_hKuFYJL3TXrFryyOpZMqeSHEnYr2WohGYkTw'
+        addr: 'https://cdn.staticaly.com/gh/lyjdht/image@master/20221010/wx.fycul57qpgo.webp'
     },
     {
         name: 'QQ', 
         ua: 'QQ\/',
-        addr: 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQlr-RlA0YjJ7jlwZCIDM5YjVkOGI5YWMyM'
+        addr: 'https://cdn.staticaly.com/gh/lyjdht/image@master/20221010/qq.35r8dpddqhxc.webp'
     }
 ]
