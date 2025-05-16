@@ -33,10 +33,5 @@ const urls = [ // 付款方式列表
         name: '微信',
         ua: 'MicroMessenger\/',
         addr: 'https://cdn.staticaly.com/gh/lyjdht/image@master/20221010/wx.fycul57qpgo.webp'
-    },
-    {
-        name: 'QQ', 
-        ua: 'QQ\/',
-        addr: 'https://cdn.staticaly.com/gh/lyjdht/image@master/20221010/qq.35r8dpddqhxc.webp'
     }
 ]
