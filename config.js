@@ -27,7 +27,7 @@ const urls = [ // 付款方式列表
     {
         name: '支付宝', // 名称
         ua: 'Alipay', // User-Agent 正则表达式
-        addr: 'https://qr.alipay.com/fkx12127jj9jwoqudtrtx93' // 收款码 URL
+        addr: 'https://cdn.staticaly.com/gh/lyjdht/image@master/20221010/zfb.3oly0y7tvjpc.webp' // 收款码 URL
     },
     {
         name: '微信',
