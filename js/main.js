@@ -63,11 +63,11 @@ function downloadURI(uri, name) {
 }
 
 function printConsoleInfomation(payment_desc) {
-    console.log(
-        atob('CiAgICBfX18KICAgIC8gXyBcX19fIF9fXyBfXwogICAvIF9fXy8gXyBgLyAvLyAvCiAgL18vICAgXF8sXy9cXywgLwogICAgICAgICAgICAvX19fLwoK'),
-        '一个简单的聚合收款码 | ⚠️️仅供个人收款使用\n', 'https://github.com/alex3236/pay\n\n',
-        '已启用支付方式：' + payment_desc.join(', '), '\n\n'
-    );
+    // console.log(
+    //     atob('CiAgICBfX18KICAgIC8gXyBcX19fIF9fXyBfXwogICAvIF9fXy8gXyBgLyAvLyAvCiAgL18vICAgXF8sXy9cXywgLwogICAgICAgICAgICAvX19fLwoK'),
+    //     '一个简单的聚合收款码 | ⚠️️仅供个人收款使用\n', 'https://github.com/alex3236/pay\n\n',
+    //     '已启用支付方式：' + payment_desc.join(', '), '\n\n'
+    // );
 }
 
 function init() {
